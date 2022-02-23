@@ -1,0 +1,17 @@
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\bin\Debug\net6.0-windows\List_Box_MSWindowsApps.exe
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\bin\Debug\net6.0-windows\List_Box_MSWindowsApps.deps.json
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\bin\Debug\net6.0-windows\List_Box_MSWindowsApps.runtimeconfig.json
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\bin\Debug\net6.0-windows\List_Box_MSWindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\bin\Debug\net6.0-windows\ref\List_Box_MSWindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\bin\Debug\net6.0-windows\List_Box_MSWindowsApps.pdb
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.csproj.AssemblyReference.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.Form1.resources
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.csproj.GenerateResource.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.GeneratedMSBuildEditorConfig.editorconfig
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.AssemblyInfoInputs.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.AssemblyInfo.cs
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.csproj.CoreCompileInputs.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\ref\List_Box_MSWindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.pdb
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\List_Box_MSWindowsApps\List_Box_MSWindowsApps\obj\Debug\net6.0-windows\List_Box_MSWindowsApps.genruntimeconfig.cache
