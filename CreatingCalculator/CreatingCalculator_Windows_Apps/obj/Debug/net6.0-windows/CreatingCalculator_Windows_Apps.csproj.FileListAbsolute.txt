@@ -1,0 +1,17 @@
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\bin\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.exe
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\bin\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.deps.json
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\bin\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.runtimeconfig.json
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\bin\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\bin\Debug\net6.0-windows\ref\CreatingCalculator_Windows_Apps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\bin\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.pdb
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.csproj.AssemblyReference.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.Form1.resources
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.csproj.GenerateResource.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.GeneratedMSBuildEditorConfig.editorconfig
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.AssemblyInfoInputs.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.AssemblyInfo.cs
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.csproj.CoreCompileInputs.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\ref\CreatingCalculator_Windows_Apps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.pdb
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\CreatingCalculator\CreatingCalculator_Windows_Apps\obj\Debug\net6.0-windows\CreatingCalculator_Windows_Apps.genruntimeconfig.cache
