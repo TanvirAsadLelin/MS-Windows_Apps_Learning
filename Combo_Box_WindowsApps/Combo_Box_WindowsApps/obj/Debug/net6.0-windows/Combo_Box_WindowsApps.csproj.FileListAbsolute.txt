@@ -1,0 +1,17 @@
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\bin\Debug\net6.0-windows\Combo_Box_WindowsApps.exe
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\bin\Debug\net6.0-windows\Combo_Box_WindowsApps.deps.json
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\bin\Debug\net6.0-windows\Combo_Box_WindowsApps.runtimeconfig.json
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\bin\Debug\net6.0-windows\Combo_Box_WindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\bin\Debug\net6.0-windows\ref\Combo_Box_WindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\bin\Debug\net6.0-windows\Combo_Box_WindowsApps.pdb
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.csproj.AssemblyReference.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.MyComboBox.resources
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.csproj.GenerateResource.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.GeneratedMSBuildEditorConfig.editorconfig
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.AssemblyInfoInputs.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.AssemblyInfo.cs
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.csproj.CoreCompileInputs.cache
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\ref\Combo_Box_WindowsApps.dll
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.pdb
+D:\My GitHub\MS Windows_Apps_Learning_All_Parts\Combo_Box_WindowsApps\Combo_Box_WindowsApps\obj\Debug\net6.0-windows\Combo_Box_WindowsApps.genruntimeconfig.cache
