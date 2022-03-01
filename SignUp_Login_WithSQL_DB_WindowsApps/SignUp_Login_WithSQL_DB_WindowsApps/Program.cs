@@ -16,7 +16,7 @@ namespace SignUp_Login_WithSQL_DB_WindowsApps
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SignUp());
+            Application.Run(new LoginForm());
         }
     }
 }

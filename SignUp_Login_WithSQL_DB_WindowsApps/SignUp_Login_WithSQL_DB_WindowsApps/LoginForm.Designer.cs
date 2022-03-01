@@ -79,6 +79,7 @@
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // checkBoxShowPass
             // 
@@ -90,6 +91,7 @@
             this.checkBoxShowPass.TabIndex = 2;
             this.checkBoxShowPass.Text = "Show password";
             this.checkBoxShowPass.UseVisualStyleBackColor = true;
+            this.checkBoxShowPass.Click += new System.EventHandler(this.checkBoxShowPass_Click);
             // 
             // textBoxPassword
             // 

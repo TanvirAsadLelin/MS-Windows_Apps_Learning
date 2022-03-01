@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
+using System.Configuration;
+using System.Data.SqlClient;
+
 namespace SignUp_Login_WithSQL_DB_WindowsApps
 {
     public partial class SignUp : Form
@@ -323,7 +326,59 @@ namespace SignUp_Login_WithSQL_DB_WindowsApps
 
             else
             {
-                MessageBox.Show("Sign up complete");
+                string cs = ConfigurationManager.ConnectionStrings["DBConnectionstring"].ConnectionString; 
+                
+                SqlConnection con = new SqlConnection(cs);
+
+                string queryGetID = "select * from SignUp_Tbl where ID = @id ";
+
+                SqlCommand cmd = new SqlCommand(queryGetID, con);
+                cmd.Parameters.AddWithValue("@id",textBoxS_Id.Text);
+
+                con.Open();
+                SqlDataReader rd = cmd.ExecuteReader();
+                if (rd.HasRows == true)
+                {
+                    MessageBox.Show(textBoxS_Id.Text + " Already exist", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    con.Close();
+                }
+                else
+                {
+
+                    con.Close();
+                    string queryInsert = "insert into SignUp_Tbl values (@id, @name ,@fname,@mname,@surname,@gender,@class,@email,@pass)";
+
+                    SqlCommand sqlCommand = new SqlCommand(queryInsert, con);
+                    sqlCommand.Parameters.AddWithValue("@id", textBoxS_Id.Text);
+                    sqlCommand.Parameters.AddWithValue("@name", textBoxS_Name.Text);
+                    sqlCommand.Parameters.AddWithValue("@fname", textBoxS_FName.Text);
+                    sqlCommand.Parameters.AddWithValue("@mname", textBoxS_MName.Text);
+                    sqlCommand.Parameters.AddWithValue("@surname", textBoxS_Surname.Text);
+                    sqlCommand.Parameters.AddWithValue("@gender", comboBoxGender.SelectedItem);
+                    sqlCommand.Parameters.AddWithValue("@class", numericUpDownClass.Value);
+                    sqlCommand.Parameters.AddWithValue("@email", textBoxEmail.Text);
+                    sqlCommand.Parameters.AddWithValue("@pass", textBoxCon_Pass.Text);
+
+                    con.Open();
+                    int value = sqlCommand.ExecuteNonQuery();
+                    if (value > 0)
+                    {
+                        MessageBox.Show("Registered Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Your email is: "+textBoxEmail.Text +"\n\n"+"Your Password is :"+textBoxPass.Text, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Hide();
+                        LoginForm loginForm = new LoginForm();
+                        loginForm.Show();
+
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("Registered Failed", "Failure", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    con.Close();
+                }
+
             }
 
         }

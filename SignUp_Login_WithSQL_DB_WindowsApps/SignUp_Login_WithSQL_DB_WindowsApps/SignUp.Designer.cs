@@ -335,6 +335,8 @@
             // comboBoxGender
             // 
             this.comboBoxGender.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.comboBoxGender.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxGender.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboBoxGender.FormattingEnabled = true;
             this.comboBoxGender.Items.AddRange(new object[] {
             "Male",
