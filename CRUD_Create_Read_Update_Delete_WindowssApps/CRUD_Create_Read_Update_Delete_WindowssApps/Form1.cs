@@ -184,5 +184,51 @@ namespace CRUD_Create_Read_Update_Delete_WindowssApps
 
             textBoxE_Id.Focus();
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+
+            string querySearch = "select * from Employee_Tbl where Name like @name + '%'";
+            SqlDataAdapter adapter = new SqlDataAdapter(querySearch, con);
+            adapter.SelectCommand.Parameters.AddWithValue("@name", textBoxSearch.Text.Trim());
+
+            DataTable dataTable = new DataTable();
+            adapter.Fill(dataTable);
+            if(dataTable.Rows.Count > 0)
+            {
+                dataGridViewEmployeTbl.DataSource = dataTable;
+            }
+            else
+            {
+                MessageBox.Show("No Data found", "NO Data Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dataGridViewEmployeTbl.DataSource = null;
+            }
+           
+
+
+        }
+
+        private void textBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+
+            string querySearch = "select * from Employee_Tbl where Name like @name + '%'";
+            SqlDataAdapter adapter = new SqlDataAdapter(querySearch, con);
+            adapter.SelectCommand.Parameters.AddWithValue("@name", textBoxSearch.Text.Trim());
+
+            DataTable dataTable = new DataTable();
+            adapter.Fill(dataTable);
+            if (dataTable.Rows.Count > 0)
+            {
+                dataGridViewEmployeTbl.DataSource = dataTable;
+            }
+            else
+            {
+                MessageBox.Show("No Data found", "NO Data Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dataGridViewEmployeTbl.DataSource = null;
+            }
+
+        }
     }
 }

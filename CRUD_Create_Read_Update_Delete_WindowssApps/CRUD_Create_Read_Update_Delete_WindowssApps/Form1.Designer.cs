@@ -28,29 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.textBoxE_Id = new System.Windows.Forms.TextBox();
             this.textBoxE_Name = new System.Windows.Forms.TextBox();
             this.comboBoxGender = new System.Windows.Forms.ComboBox();
             this.numericUpDownAge = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btnInsert = new System.Windows.Forms.Button();
-            this.btnView = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxSalary = new System.Windows.Forms.TextBox();
+            this.comboBoxDesignation = new System.Windows.Forms.ComboBox();
+            this.btnInsert = new System.Windows.Forms.Button();
+            this.btnView = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.dataGridViewEmployeTbl = new System.Windows.Forms.DataGridView();
-            this.comboBoxDesignation = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBoxSearch = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmployeTbl)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -59,7 +64,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(456, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 38);
+            this.label1.Size = new System.Drawing.Size(269, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee Details ";
             // 
@@ -130,6 +135,28 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Gender: ";
             // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(3, 228);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(65, 25);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Age: ";
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(3, 291);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(143, 25);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Designation: ";
+            // 
             // textBoxE_Id
             // 
             this.textBoxE_Id.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -173,27 +200,43 @@
             this.numericUpDownAge.Size = new System.Drawing.Size(275, 22);
             this.numericUpDownAge.TabIndex = 3;
             // 
-            // label8
+            // label4
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(3, 228);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 25);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Age: ";
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(3, 355);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 25);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Salary: ";
             // 
-            // label9
+            // textBoxSalary
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 291);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(143, 25);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Designation: ";
+            this.textBoxSalary.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBoxSalary.Location = new System.Drawing.Point(234, 357);
+            this.textBoxSalary.Name = "textBoxSalary";
+            this.textBoxSalary.Size = new System.Drawing.Size(275, 22);
+            this.textBoxSalary.TabIndex = 5;
+            // 
+            // comboBoxDesignation
+            // 
+            this.comboBoxDesignation.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.comboBoxDesignation.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxDesignation.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBoxDesignation.FormattingEnabled = true;
+            this.comboBoxDesignation.Items.AddRange(new object[] {
+            "Manager",
+            "Accountant",
+            "Incharge",
+            "Dircetor",
+            "Assistant Manager",
+            "IT Executive",
+            "Senior Executive"});
+            this.comboBoxDesignation.Location = new System.Drawing.Point(234, 291);
+            this.comboBoxDesignation.Name = "comboBoxDesignation";
+            this.comboBoxDesignation.Size = new System.Drawing.Size(275, 24);
+            this.comboBoxDesignation.TabIndex = 4;
             // 
             // btnInsert
             // 
@@ -218,25 +261,6 @@
             this.btnView.Text = "View";
             this.btnView.UseVisualStyleBackColor = true;
             this.btnView.Click += new System.EventHandler(this.btnView_Click);
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 355);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 25);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Salary: ";
-            // 
-            // textBoxSalary
-            // 
-            this.textBoxSalary.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBoxSalary.Location = new System.Drawing.Point(234, 357);
-            this.textBoxSalary.Name = "textBoxSalary";
-            this.textBoxSalary.Size = new System.Drawing.Size(275, 22);
-            this.textBoxSalary.TabIndex = 5;
             // 
             // btnUpdate
             // 
@@ -277,7 +301,7 @@
             // dataGridViewEmployeTbl
             // 
             this.dataGridViewEmployeTbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewEmployeTbl.Location = new System.Drawing.Point(589, 67);
+            this.dataGridViewEmployeTbl.Location = new System.Drawing.Point(589, 166);
             this.dataGridViewEmployeTbl.Name = "dataGridViewEmployeTbl";
             this.dataGridViewEmployeTbl.RowHeadersWidth = 51;
             this.dataGridViewEmployeTbl.RowTemplate.Height = 24;
@@ -285,30 +309,42 @@
             this.dataGridViewEmployeTbl.TabIndex = 12;
             this.dataGridViewEmployeTbl.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridViewEmployeTbl_MouseDoubleClick);
             // 
-            // comboBoxDesignation
+            // groupBox1
             // 
-            this.comboBoxDesignation.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBoxDesignation.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBoxDesignation.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBoxDesignation.FormattingEnabled = true;
-            this.comboBoxDesignation.Items.AddRange(new object[] {
-            "Manager",
-            "Accountant",
-            "Incharge",
-            "Dircetor",
-            "Assistant Manager",
-            "IT Executive",
-            "Senior Executive"});
-            this.comboBoxDesignation.Location = new System.Drawing.Point(234, 291);
-            this.comboBoxDesignation.Name = "comboBoxDesignation";
-            this.comboBoxDesignation.Size = new System.Drawing.Size(275, 24);
-            this.comboBoxDesignation.TabIndex = 4;
+            this.groupBox1.Controls.Add(this.btnSearch);
+            this.groupBox1.Controls.Add(this.textBoxSearch);
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(589, 67);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(543, 93);
+            this.groupBox1.TabIndex = 13;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Srearch";
+            // 
+            // textBoxSearch
+            // 
+            this.textBoxSearch.Location = new System.Drawing.Point(92, 31);
+            this.textBoxSearch.Name = "textBoxSearch";
+            this.textBoxSearch.Size = new System.Drawing.Size(329, 34);
+            this.textBoxSearch.TabIndex = 0;
+            this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
+            this.btnSearch.Location = new System.Drawing.Point(427, 25);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(48, 48);
+            this.btnSearch.TabIndex = 1;
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 659);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridViewEmployeTbl);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label1);
@@ -324,6 +360,8 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmployeTbl)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -351,6 +389,9 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.DataGridView dataGridViewEmployeTbl;
         private System.Windows.Forms.ComboBox comboBoxDesignation;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.TextBox textBoxSearch;
     }
 }
 
